@@ -1,0 +1,92 @@
+[24-May-2024 16:46:57 UTC] PHP Fatal error:  Uncaught RedisException: Connection refused in /home/ubuntu/botsms/botsms/includes/rDis.php:16
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/includes/rDis.php(16): Redis->pconnect()
+#1 /home/ubuntu/botsms/botsms/processos/alertas.php(17): rDis::con()
+#2 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/rDis.php on line 16
+[24-May-2024 16:46:57 UTC] PHP Fatal error:  Uncaught RedisException: Connection refused in /home/ubuntu/botsms/botsms/includes/rDis.php:16
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/includes/rDis.php(16): Redis->pconnect()
+#1 /home/ubuntu/botsms/botsms/includes/ControleProcessos.php(7): rDis::con()
+#2 /home/ubuntu/botsms/botsms/processos/processos.php(17): ControleProcessos->__construct()
+#3 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/rDis.php on line 16
+[24-May-2024 16:47:00 UTC] PHP Fatal error:  Uncaught RedisException: Connection refused in /home/ubuntu/botsms/botsms/includes/rDis.php:16
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/includes/rDis.php(16): Redis->pconnect()
+#1 /home/ubuntu/botsms/botsms/processos/alertas.php(17): rDis::con()
+#2 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/rDis.php on line 16
+[24-May-2024 16:47:02 UTC] PHP Fatal error:  Uncaught RedisException: Connection refused in /home/ubuntu/botsms/botsms/includes/rDis.php:16
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/includes/rDis.php(16): Redis->pconnect()
+#1 /home/ubuntu/botsms/botsms/processos/alertas.php(17): rDis::con()
+#2 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/rDis.php on line 16
+[24-May-2024 17:22:24 UTC] PHP Warning:  Undefined array key "result" in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[24-May-2024 17:22:24 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/ubuntu/botsms/botsms/includes/Telegram.php:3070
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/bot.php(13): Telegram->getUpdates()
+#1 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[24-May-2024 18:32:18 UTC] PHP Warning:  Undefined array key "result" in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[24-May-2024 18:32:18 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/ubuntu/botsms/botsms/includes/Telegram.php:3070
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/bot.php(13): Telegram->getUpdates()
+#1 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[25-May-2024 00:50:48 UTC] PHP Warning:  Undefined array key "result" in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[25-May-2024 00:50:48 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/ubuntu/botsms/botsms/includes/Telegram.php:3070
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/bot.php(13): Telegram->getUpdates()
+#1 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[25-May-2024 03:35:47 UTC] PHP Warning:  Undefined array key "result" in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[25-May-2024 03:35:47 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/ubuntu/botsms/botsms/includes/Telegram.php:3070
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/bot.php(13): Telegram->getUpdates()
+#1 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[25-May-2024 17:26:40 UTC] PHP Warning:  Undefined array key "result" in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[25-May-2024 17:26:40 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/ubuntu/botsms/botsms/includes/Telegram.php:3070
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/bot.php(13): Telegram->getUpdates()
+#1 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[25-May-2024 18:27:33 UTC] PHP Warning:  Undefined array key "result" in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[25-May-2024 18:27:33 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/ubuntu/botsms/botsms/includes/Telegram.php:3070
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/bot.php(13): Telegram->getUpdates()
+#1 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[27-May-2024 22:05:36 UTC] PHP Warning:  Undefined array key "result" in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[27-May-2024 22:05:36 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/ubuntu/botsms/botsms/includes/Telegram.php:3070
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/bot.php(13): Telegram->getUpdates()
+#1 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[27-May-2024 22:05:38 UTC] PHP Warning:  Undefined array key "result" in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[27-May-2024 22:05:38 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/ubuntu/botsms/botsms/includes/Telegram.php:3070
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/bot.php(13): Telegram->getUpdates()
+#1 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[27-May-2024 22:05:40 UTC] PHP Warning:  Undefined array key "result" in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[27-May-2024 22:05:40 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/ubuntu/botsms/botsms/includes/Telegram.php:3070
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/bot.php(13): Telegram->getUpdates()
+#1 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[28-May-2024 01:35:59 UTC] PHP Warning:  Undefined array key "result" in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[28-May-2024 01:35:59 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/ubuntu/botsms/botsms/includes/Telegram.php:3070
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/bot.php(13): Telegram->getUpdates()
+#1 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[28-May-2024 17:37:09 UTC] PHP Warning:  Undefined array key "result" in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[28-May-2024 17:37:09 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/ubuntu/botsms/botsms/includes/Telegram.php:3070
+Stack trace:
+#0 /home/ubuntu/botsms/botsms/bot.php(13): Telegram->getUpdates()
+#1 {main}
+  thrown in /home/ubuntu/botsms/botsms/includes/Telegram.php on line 3070
+[29-May-2024 08:20:07 UTC] PHP Warning:  Trying to access array offset on null in /home/ubuntu/botsms/botsms/comandos/novo_sms.php on line 12
